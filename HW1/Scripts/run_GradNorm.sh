@@ -13,4 +13,4 @@ source activate pytorch
 
 cd ..
 
-srun python3 HW1_1-2_GradNorm2.py
+srun python3 HW1_1-2_GradNorm.py
