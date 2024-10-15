@@ -1,6 +1,6 @@
 # CPSC 8430 Homework 2 - Video Caption Generation 
 
-This folder contains all the scripts/notebook/python files used to generate the report HW2_report_jkbrook
+This folder contains all the scripts and python files used to generate the report HW2_report_jkbrook
 
 ## How to run the files:
 A conda environment containing the packages pytorch, matplotlib, and other necessary packages was utilized and will be needed when running the files.
