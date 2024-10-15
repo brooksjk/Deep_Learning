@@ -47,7 +47,8 @@ def clip_count(cand_d, ref_ds):
     count = 0
     for m in cand_d.keys():
         m_w = cand_d[m]
-        m_max = max(ref[m] for ref in ref_ds if m in ref)
+        # Check if the n-gram exists in any reference captions
+        m_max = max((ref.get(m, 0) for ref in ref_ds), default=0)
         count += min(m_w, m_max)
     return count
 
