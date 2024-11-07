@@ -11,4 +11,4 @@
 module load anaconda3 
 source activate pytorch 
 
-python3 finetuned_model.py
+python3 squad_qa.py
